@@ -18,6 +18,6 @@ Mixed numbers will be represented by whole_numerator/denominator. e.g. â€œ3_1/4â
 Improper fractions and whole numbers are also allowed as operands.
 
 6) To run unit test:
-6.1. Comment out the line 60 in onelogin.py (# fraction_trick())
+6.1. Comment out the last line in onelogin.py (# fraction_trick())
 6.2. Run command:
 python -m unittest test_onelogin.py
