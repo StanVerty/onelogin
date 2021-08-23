@@ -1,15 +1,15 @@
 # onelogin
 
-1) clone code from repo
+1) clone code from repo:
 git clone {link to repo}
 
-2) create docker image
+2) create docker image:
 docker image build ./ -t {image name}
 
 3) run the docker container:
 docker container run -it {image name} /bin/bash
 
-4) once inside container run (also use this command to run the program repeatedly)
+4) once inside container run (also use this command to run the program repeatedly):
 python onelogin.py
 
 5) Legal operators shall be *, /, +, - (multiply, divide, add, subtract)
